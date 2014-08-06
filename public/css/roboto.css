@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Roboto;
+    src: url('https://fluvio.ru/static/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url('https://fluvio.ru/static/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf');
+}
