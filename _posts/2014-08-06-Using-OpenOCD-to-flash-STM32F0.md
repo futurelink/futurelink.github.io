@@ -8,6 +8,8 @@ layout: post
 
 Надо сделать вот такой файл, который в последующем скормить OpenOCD. Можно назвать его, к примеру **stm32f0_discovery.cfg**.
 
+<!-- more -->
+
 ```
 source [find interface/stlink-v2.cfg]
 
