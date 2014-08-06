@@ -13,7 +13,10 @@ layout: default
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+	{{ post.content | split:"<!-- more -->" | first | strip_html | truncate:300 }}
+	{% if post.content | size > 300 %}
+	<p><strong>Читать далее</strong></p>
+	{% endif %}
   </div>
   {% endfor %}
 </div>
