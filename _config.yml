@@ -1,11 +1,11 @@
-title:        Hyde
-tagline:      'Hyde, a Jekyll theme'
-description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:          http://andhyde.com
-version:      1.1.1
+title:        Futurelink Docs
+tagline:      'Все, что не хочется запоминать'
+description:  'Здесь лежит все, что не надо запоминать, а надо просто записать. Программизм, микроконтроллеры STM32 и AVR, разработка на Java и прочее'
+url:          http://futurelink.ru
+version:      1.0
 author:
-  name:       ''
-  email:      ''
+  name:       'Денис Павлов'
+  email:      'me@futurelink.ru'
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
