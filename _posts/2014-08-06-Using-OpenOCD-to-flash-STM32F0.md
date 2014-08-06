@@ -64,7 +64,7 @@ proc stm_erase {} {
 Можно написать как-нибудь makefile, который будет все это делать после сборки прошивки. Для этого надо в него вписать следующее:
 
 ```
-	openocd -f stm32f0_discovery.cfg -f stm32-openocd.cfg -c "stm_flash `pwd`/myflashimage.bin" -c shutdown
+openocd -f stm32f0_discovery.cfg -f stm32-openocd.cfg -c "stm_flash `pwd`/myflashimage.bin" -c shutdown
 ```
 
 В общем-то, как видно, два конфга, которые мы сделали перед этим можно слить в один и не париться. Однако, если планируется
