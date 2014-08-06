@@ -4,6 +4,8 @@ layout: post
 ---
 USART на F0 включается очень просто!
 
+<!-- more -->
+
 {% highlight c %}
 #define BAUDRATE	19200
 #define F_CPU		48000000
